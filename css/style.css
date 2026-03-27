@@ -1,0 +1,51 @@
+#time {
+    color: gray;                    
+    font-weight: bold;               
+    font-size: 24px;                 
+    text-align: center;             
+    padding: 10px 20px;             
+    border: 2px solid darkgray;      
+    border-radius: 8px;              
+    background-color: rgb(229, 231, 229);      
+    display: inline-block;        
+}
+/*
+#cards{
+
+    display: none;
+
+
+}
+
+*/
+
+#loader{
+
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.loader-con{
+    display: block;
+position: fixed;
+top: 0%;
+left: 0%;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.865);
+}
+
+.list-group-item{
+
+
+    background: transparent;
+}
+
+img{
+
+    max-width: 100%;
+}
